@@ -12,6 +12,8 @@
 --Darkdesaturatedcyan: hsl(167, 40%, 24%);
 --Darkblue: hsl(198, 62%, 26%);
 --Darkmoderatecyan : hsl(168, 34%, 41%);
+--Primary-Yellow-low-opacity: rgba(250, 212, 0, 0.5);
+--Primary-Yellow: rgb(250, 212, 0);
 
 }
 
@@ -123,6 +125,7 @@ img{
     justify-content: center;
     padding: 0 10%;
 }
+
 .grid .row_text h2{
     font-size: 4rem;
     color: var(--Verydarkdesaturatedblue);
@@ -143,9 +146,25 @@ img{
     font-family: 'Fraunces', serif;
     font-size: 1.3rem;
 }
-.grid .row_text a:hover{
-    text-decoration: underline;
+.link{
+    border-radius: 5px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0.3rem;
 }
+.link-yellow {
+    background-color: var(--Primary-Yellow-low-opacity);
+    transition: all 0.2s ease-in;
+  }
+  .link:hover {
+    background-color: var(--Primary-Yellow);
+    transition: all 0.2s ease-in;
+  }
+/* .grid .row_text a:hover{
+    text-decoration: underline;
+} */
 
 .grid .row1 .row_img{
     flex: 1 1 45rem;
