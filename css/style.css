@@ -124,6 +124,7 @@ img{
     align-items: flex-start;
     justify-content: center;
     padding: 0 10%;
+    height: 60rem;
 }
 
 .grid .row_text h2{
@@ -442,9 +443,7 @@ img{
         content: url('/images/mobile/image-stand-out.jpg');
         
     }
-    .grid .row3{
-        margin-top: 3rem;
-    }
+   
     .grid .row3 .bg-1{
         background: url('/images/mobile/image-graphic-design.jpg');
         background-repeat: no-repeat;
