@@ -355,14 +355,17 @@ img{
         right: 10%;
     }
     .header .header_head .nav::before{
-        content: '';
+      content: '';
         position: absolute;
-        top: -6px;
-        right: 28px;
-        width: 20px;
-        height: 20px;
-        background: var(--White);
-        transform: rotate(45deg);
+        top: -20px;
+        right: 0px;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-right: 24px solid #fff;
+        border-left: 12px solid transparent;
+        border-bottom: 12px solid #fff;
+        border-top: 20px solid transparent;
     }
     .header .header_head .nav a{
         color: var(--Darkblue);
