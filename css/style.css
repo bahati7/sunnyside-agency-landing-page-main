@@ -158,7 +158,7 @@ img{
     background-color: var(--Primary-Yellow-low-opacity);
     transition: all 0.2s ease-in;
   }
-  .link:hover {
+  .link-yellow:hover {
     background-color: var(--Primary-Yellow);
     transition: all 0.2s ease-in;
   }
