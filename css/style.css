@@ -14,6 +14,8 @@
 --Darkmoderatecyan : hsl(168, 34%, 41%);
 --Primary-Yellow-low-opacity: rgba(250, 212, 0, 0.5);
 --Primary-Yellow: rgb(250, 212, 0);
+--Primary-Soft-Red: rgb(254, 120, 103);
+--Primary-Soft-Red-low-opacity: rgb(254, 120, 103, 0.5);
 
 }
 
@@ -164,9 +166,14 @@ img{
     background-color: var(--Primary-Yellow);
     transition: all 0.2s ease-in;
   }
-/* .grid .row_text a:hover{
-    text-decoration: underline;
-} */
+  .link-red:hover {
+    background-color: var(--Primary-Soft-Red);
+    transition: all 0.2s ease-in;
+  }
+  .link-red {
+    background-color: var(--Primary-Soft-Red-low-opacity);
+    transition: all 0.2s ease-in;
+  }
 
 .grid .row1 .row_img{
     flex: 1 1 45rem;
