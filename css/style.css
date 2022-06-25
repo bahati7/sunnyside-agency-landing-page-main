@@ -124,7 +124,7 @@ img{
     align-items: flex-start;
     justify-content: center;
     padding: 0 10%;
-    height: 60rem;
+    height: 50rem;
 }
 
 .grid .row_text h2{
@@ -170,6 +170,10 @@ img{
 
 .grid .row1 .row_img{
     flex: 1 1 45rem;
+    height: 50rem;
+}
+.grid .row1 .row_img img{
+    height: 50rem;
 }
 
 .grid .row2{
@@ -180,9 +184,14 @@ img{
 }
 .grid .row2 .row_text{
     flex: 1 1 45rem;
+    
 }
 .grid .row2 .row_img{
     flex: 1 1 45rem;
+    height: 50rem;
+}
+.grid .row2 .row_img img{
+    height: 50rem;
 }
 .grid .row3{
     display: flex;
@@ -436,6 +445,7 @@ img{
         justify-content: flex-end;
         padding: 0 0.3rem;
     } */
+  
     .grid .row_text a{
         padding-bottom: 10rem;
     }
