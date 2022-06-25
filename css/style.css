@@ -6,7 +6,7 @@
 --Darkgrayishblue: hsl(232, 10%, 55%);
 --Grayishblue: hsl(210, 4%, 67%);
 --White: hsl(0, 0%, 100%);
-
+--footer:hsl(167, 44%, 70%);
 --Softred: hsl(7, 99%, 70%);
 --Yellow: hsl(51, 100%, 49%);
 --Darkdesaturatedcyan: hsl(167, 40%, 24%);
@@ -263,7 +263,7 @@ img{
 
 /* footer */
 .footer{
-    background-color: hsl(168, 97%, 36%);
+    background-color: var(--footer);
     padding: 3rem 0;
     text-align: center;
     
@@ -283,10 +283,12 @@ img{
 .footer ul li a:hover{
     color: var(--White);
 }
+
 .footer .icons img{
     width: 2rem;
     margin-left: 2rem;
     cursor: pointer;
+
 
 }
 .footer .icons img:nth-of-type(1):hover{
@@ -355,7 +357,7 @@ img{
         right: 10%;
     }
     .header .header_head .nav::before{
-      content: '';
+        content: '';
         position: absolute;
         top: -20px;
         right: 0px;
@@ -366,6 +368,10 @@ img{
         border-left: 12px solid transparent;
         border-bottom: 12px solid #fff;
         border-top: 20px solid transparent;
+        /* width: 20px;
+        height: 20px;
+        background: var(--White);
+        transform: rotate(45deg); */
     }
     .header .header_head .nav a{
         color: var(--Darkblue);
